@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color:#050000;
+    color: whitesmoke;
+    /* saco el height: 100vh;*/
+    box-sizing: border-box;
+
+}
+
+strong { 
+    color: #8b0000
+}
+
+/*destaque-color fue eliminado en el index.html*/
+.destaque-color {
+    color: green;
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
+    margin: 15% 15%;
+    justify-content: space-between;
+}
+
+.presentacion__contenido{
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.presentacion__contenido__titulo{
+    font-size: 42px;
+    font-family: "Jersey 10", sans-serif;
+}
+
+.presentacion__contenido__texto{
+    font-size: 16px;
+    font-family: "Jersey 10", sans-serif;
+}
+
+.presentacion__botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentacion__botones__estilo{
+    width: 412px;
+    background-color: #8B0000;
+    text-align: center;
+    padding: 24px 24px;
+    border-radius: 24px;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 16px;
+    font-weight: 0;
+    cursor: pointer;
+    /*no necesité "text-decoration"*/
+    /*no necesité color: #000000*/;
+}
+
+.footer{
+    background-color: #8B0000;
+    padding: 24px;
+    color: #000000;
+    text-align: center;
+    font-family: "Jersey 10", sans-serif;
+}
+
+.input{
+    background-color: #000000;
+    height: 300px;
+    color: #00FF00;
+    cursor: text;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 24px;
+}
+
+/*.output{
+    background-color: #000000;
+    height: 300px;
+    color: #F6F6F6;
+}*/
+
+.muñeco{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    cursor: crosshair;
+}
+   
